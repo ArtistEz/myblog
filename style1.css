@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "Silapakorn72";
+  src: url(./font/Silapakorn72-Regular_Beta05.ttf);
+}
+
+@font-face {
+  font-family: "Silapakorn72-bold";
+  src: url(./font/Silapakorn72-Bold_Beta05.ttf);
+}
+
+body {
+  font-family: "Silapakorn72", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Silapakorn72-bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+  font-size: 36px;
+}
+
+.hline{
+  border-top: 3px solid #F6BC24;
+}
+
+.bg-light{
+  background-color: #fff !important;
+}
+a{
+  color: #F6BC24;
+  font-family: "Silapakorn72-bold";
+}
+.active{
+  color: red;
+}
+h3{
+  color: #F6BC24;
+  font-weight: bold;
+}
+.card-body{
+  width: 100%;
+  height: 150px;
+  background-color: #F6BC24;
+  font-weight: bold;
+  font-size: 18px;
+}
+.padding{
+  padding-top: 20px;
+}
+.btn{
+  background-color: #F6BC24;
+  color: #000;
+  border-radius: 18px;
+}
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("images/555.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+.footer{
+  background-color: red !important;
+}
+.mb-4{
+  color: #000;
+}
+.text-muted{
+  color: white !important;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 20rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    
+    padding-top: 0rem !important;
+  }
+  .pos-f-t{
+    display: none !important;
+  }
+  
+}
+@media (max-width: 767px){
+  .nav-bar{
+    display: none !important;
+    background-color: white !important;
+  }
+}
+.features-icons {
+  padding-top: 4rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 2.5rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("./img/bg-masthead.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.form-signin .checkbox {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
